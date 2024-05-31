@@ -1,13 +1,11 @@
-/* font import */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Rubik", sans-serif;
   background-color: var(--background-main);
-  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .desktop-nav {
@@ -16,6 +14,7 @@ header {
   justify-content: center;
   gap: 2rem;
   width: 100%;
+  margin: 1rem 2rem;
 }
 
 .mobile-nav {
@@ -30,7 +29,7 @@ header {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.369rem;
   font-weight: 600;
 }
 
@@ -89,7 +88,6 @@ button {
     align-items: end;
     justify-content: end;
     gap: 0.5rem;
-    min-height: 100vh;
   }
 
   .mn-links a {
